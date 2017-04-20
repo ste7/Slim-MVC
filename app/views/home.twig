@@ -1,0 +1,8 @@
+{% extends 'templates/defaults.twig' %}
+
+{% block content %}
+    <h2>name: {{ name }}</h2>
+    {% if new_name %}
+        <h4>get new: {{ new_name }}</h4>
+    {% endif %}
+{% endblock %}

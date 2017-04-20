@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  },
+  "require": {
+    "slim/slim": "^3.8",
+    "slim/twig-view": "^2.2",
+    "illuminate/database": "^5.4"
+  }
+}
